@@ -9,7 +9,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background: linear-gradient(45deg, #298ea6,#00b6f6 45%, #0b404d) ;
     margin: 0;
     padding: 0;
     display: flex;
@@ -47,7 +47,8 @@ body {
     background-color: #fff;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    margin: 10px;
+    border: 1px solid #00b6f6;
     border-radius: 10px;
 }
 .group:nth-child(1) {
@@ -64,23 +65,28 @@ body {
     overflow: hidden;
 }
 .profile-photo img {
-    height: 6rem;
+    height: 8rem;
+    margin: 10px;
 }
 .login {
-    background-color: #0095f6;
+    background-color: #298ea6;
     color: #fff;
-    padding: 8px;
-    border-radius: 4px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .logout {
-    color: #0095f6;
+    color: #298ea6;
     margin-top: 1rem;
 }
 .not-account {
     color: rgb(160, 160, 160);
 }
 .link-blue {
-    color: #0095f6;
+    color: #298ea6;
+}
+.get-app {
+    color: #fff;
+    font-size: 17px;
 }
 .get-the-app {
     display: flex;
@@ -95,7 +101,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
 }
 .app-download {
     height: 3rem;
